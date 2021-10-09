@@ -1,0 +1,10 @@
+main{
+    background-image: url(../../assets/images/b2.jpg);
+    background-size: cover;
+    height: 90vh;
+}
+
+a{
+    float: right;
+    color:rgb(1, 255, 56);
+}

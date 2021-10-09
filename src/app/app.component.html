@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <!-- Brand/logo -->
+    <a class="navbar-brand" routerLink="/home"><img src="./assets/images/Logo.JPG" height=70px width="70px" style="border-radius: 50%;"></a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/home"> <i class="fas fa-home fa-2x">Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/flights"> <i class="fas fa-fighter-jet fa-lg">Flights</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/buses"> <i class="fas fa-bus fa-lg">Buses</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/holidaypackages"> <i class="fas fa-gifts fa-lg">Packages</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contactus"> <i class="fas fa-envelope-open-text fa-lg">ContactUs</i> </a>
+      </li>
+      
+      </ul>
+      <div class="right">
+        <li class="nav-item">
+          <a style="color:aliceblue"  class="nav-link" routerLink="/signup"> <i class="fas fa-sign-in-alt fa-lg"></i>Signup</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: aliceblue" class="nav-link" routerLink="/signin"> <i class="fas fa-sign-in-alt fa-lg"></i>Login</a>
+        </li>
+      </div>
+  </nav>
+  
+  
+  <router-outlet></router-outlet>
+  
+</body>
+<app-footer></app-footer>
+
+</html>

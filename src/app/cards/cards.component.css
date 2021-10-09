@@ -1,0 +1,27 @@
+#alpy-img{
+    background-image: url(../../assets/images/ka1.jfif);
+    background-size: cover;
+    
+}
+#cochin{
+    background-image: url(../../assets/images/k2.jpg);
+    background-size: cover;
+    
+}
+#vagamon{
+    background-image: url(../../assets/images/v1.jfif);
+    background-size: cover;
+    height: 400px;
+    
+
+}
+#Kizhunna{
+    background-image: url(../../assets/images/k4.jpg);
+    
+    height: 400px;
+    
+    background-size: cover;
+}
+body{
+    width: 1520px;
+}
